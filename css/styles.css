@@ -1,0 +1,251 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  margin: 0
+}
+
+h1 {
+  color: #474E68;
+  font-size: 3;
+  margin: 3rem;
+}
+.theh1js {
+  font-size: 10rem;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: #50577A;
+  font-weight: 400;
+  margin: 10px 650px;
+  font-size: 1.8rem;
+}
+
+h3 {
+  color: #6B728E;
+  margin: 2rem 1rem 1.5rem;
+  font-size: 2rem;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  color: #001253;
+  font-size: 1.25rem;
+}
+.devjs{
+  color:#0d6efd;
+}
+
+.links-a {
+  color: #0D4C92;
+  font-family: 'Raleway', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+.links-a-js{
+  font-size: 1.5rem;
+  color:#0d6efd;
+}
+.just{
+  font-size: 1.5rem;
+}
+
+.mountain {
+  margin: 1.5rem 0;
+  height: 15rem;
+  width: 15rem;
+}
+.mountainjs{
+  margin: 1.5rem 0;
+  height: 20rem;
+  width: 20rem;
+}
+
+.field {
+  margin: 1.5rem 0;
+  height: 15rem;
+  width: 15rem;
+}
+.fieldjs {
+  margin: 1.5rem 0;
+  height: 20rem;
+  width: 20rem;
+}
+
+
+.im1 {
+  font-size: 3rem;
+  color: #00E7FF;
+}
+.im2 {
+  font-size: 3rem;
+  color: #00E7FF;
+}
+
+.hello {
+  margin: 0.3125rem 18.75rem 3.75rem 0.3125rem;
+}
+.hellojs{
+  transform : rotate(10deg);
+}
+
+.top-container {
+  padding: 1.25rem 0 3.125rem 0;
+  background-color: #DEF5E5;
+  text-align: center;
+}
+
+.midle-container {
+  text-align: center;
+  margin: 3rem;
+}
+
+.bottom-container {
+  text-align: center;
+  margin: 3rem;
+}
+
+.footer-container {
+  text-align: center;
+  background-color: #DEF5E5;
+  padding: 1.5rem 2rem 4rem;
+
+}
+
+
+.navbar-brand {
+  font-family: "Roboto";
+  font-size: 2.5rem;
+
+}
+
+.container-fluid {
+  padding: 1.5%;
+
+}
+
+.nav-item {
+  font-family: 'Raleway', sans-serif;
+  color: #77808d;
+  font-weight: 700;
+  margin: 1.25rem;
+  font-size: 1rem;
+  }
+
+.button-search {
+  font-family: 'Raleway';
+  border-color: #0d6efd;
+  color: #0d6efd;
+}
+
+.button-search:hover {
+  background-color: #0d6efd;
+  border-color: #0d6efd
+}
+#price{
+  font-family: 'Raleway', sans-serif;
+  padding: 5rem 10rem;
+
+}
+.changecolorjs{
+  color: rgb(25, 55, 190);
+}
+.card-header{
+  height:4rem;
+  background-color: #D2E9E9;
+  
+}
+.caroutest{
+  text-align: center;
+
+}
+.style-carousel{
+  padding:3rem;
+  background-color: #fff;
+}
+.carousel-img{
+  width: 40%;
+  height: 25rem;
+
+}
+/* contact page */
+.contact{
+  background-color: red;
+
+
+}
+.the contact{padding:  0;}
+
+/* About page */
+.about{
+  text-align: left;
+  background-color: #DEF5E5;
+  padding:  20px;
+  margin-bottom: 2rem;
+}
+.h1-about{
+  text-align: center;
+}
+.about_list{
+  font-family: 'Raleway', sans-serif;
+  color: #001253;
+  font-size: 1.25rem;
+
+}
+.cont_working_photo1{
+  padding-left: 50px;
+}
+.photo1{
+  float: left;
+}
+.text{
+  float: left;
+  font-size: 10px;
+  padding-left: 20px;
+width:8rem;
+
+}
+
+.cont_working_photo2{
+  float:left;
+  padding-left: 5rem;
+}
+
+.cont_working_photo3 {
+  float:left;
+  padding-left: 5rem;
+  display: inline-block;
+}
+.total_container{
+   padding-top:1,5rem;
+  align-items: baseline;
+  justify-content: flex-start;
+  text-align: center;
+}
+.test{
+  background-color: #DEF5E5;
+}
+
+
+
+
+
+
+@media(max-width:1660px) {
+  h2{
+  margin: 0 100px;
+  text-align: center;
+}
+.text{font-size: 5px;}
+}
+@media(max-width:1189px){
+  .text{float: none;}
+.cont_working_photo1,.cont_working_photo2,.cont_working_photo3{padding: 0;}
+  }
+@media(max-width:740px){
+  .carousel-img{
+  width: 400px;
+}
+
+}
