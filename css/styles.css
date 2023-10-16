@@ -42,10 +42,14 @@ p {
   font-family: 'Raleway', sans-serif;
   margin: 10px 20px;
   text-decoration: none;
+  font-size: 2rem;
+  padding: 0.5rem;
 }
 .links-a-js{
-  font-size: 1.5rem;
-  color:#0d6efd;
+  border-collapse: collapse;
+  background-color:#70d8eb;
+  border-radius: 20px;
+  color: #DEF5E5;
 }
 .just{
   font-size: 1.5rem;
