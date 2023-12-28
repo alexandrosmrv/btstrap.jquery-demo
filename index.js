@@ -48,9 +48,15 @@ $( ".h1-about" ).on( "click", function() {
      });
  });
  
- $(".about").toggle(function(){
-   $(this).slideDown(10000);
- });
+ $(".about").hide();
+ $(".total_container").hide();
+
+ $(".about").toggle(9000);
+
+//  $(".about").toggle(function(){
+//    $(this).slideDown(100);
+//  });
+
  $(".total_container").toggle(function(){
    $(this).slideDown(10000);
  });
@@ -64,7 +70,7 @@ $(".spn").on("click", function(){
 });
 
 $(".im2").mouseover(function(){
-   $(this).replaceWith("<h1>🌐🌐🔗🔗🖃🖃🌐🌐</h1>");
+   $(this).replaceWith("<h1>&#8600 &#11015 &#11015 &#11015 &#11015  &#8601;</h1>");
 });
 
 $(".changecolor").hover(function(){
@@ -83,4 +89,20 @@ $(document).ready(function() {
    });
  });
 
+ $(".footer-container").hide();
 
+ $("#btnCont").on("click", function(){
+   $(".footer-container").toggle(8000);
+ });
+
+//  $("#btnCont").on("click", function(){
+//    $(".footer-container").show();
+//  });
+
+//  $(".footer-container").on("click", function() {
+//    $(this).css("visibility", "hidden");
+// });
+
+// $(".footer-container").on("click", function() {
+//    $(this).css("visibility", "visible");
+// });

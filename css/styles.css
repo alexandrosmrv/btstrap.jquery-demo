@@ -72,11 +72,9 @@ p {
 }
 .fieldjs {
   transform: scale(1.2);
-  
-  position:static;
+   position:static;
   z-index: 1;
- 
-}
+ }
 
 
 .im1 {
@@ -115,7 +113,7 @@ p {
   text-align: center;
   background-color: #DEF5E5;
   padding: 1.5rem 2rem 4rem;
-
+  
 }
 
 
@@ -177,10 +175,18 @@ p {
 /* contact page */
 .contact{
   background-color: red;
-
-
 }
-.the contact{padding:  0;}
+.the_contact{padding:  0;}
+
+#btnCont{
+  height: fit-content;
+  width: fit-content;
+  background-color: rgb(211, 207, 207);
+  border-radius: 20px;
+  border-style:none;
+  margin-left: 1rem;
+  font-size:large;  
+}
 
 /* About page */
 .about{
@@ -215,16 +221,17 @@ width:8rem;
 .cont_working_photo2{
   float:left;
   padding-left: 5rem;
+  
 }
 
 .cont_working_photo3 {
   float:left;
   padding-left: 5rem;
-  display: inline-block;
+  
 }
 .total_container{
    padding-top:1,5rem;
-  align-items: baseline;
+  
   justify-content: flex-start;
   text-align: center;
 }
